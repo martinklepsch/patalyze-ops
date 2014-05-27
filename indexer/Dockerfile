@@ -1,7 +1,7 @@
 FROM dockerfile/java
 
 # copy the locally built fat-jar to the image
-ADD patalyze-standalone.jar /
+ADD https://s3-eu-west-1.amazonaws.com/patalyze/releases/patalyze-standalone.jar /
 # ADD patalyze-standalone.jar /
 
 EXPOSE 42042
